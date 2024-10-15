@@ -114,22 +114,6 @@ docker-compose exec web alembic upgrade head
 docker-compose exec web alembic downgrade -1
 ```
 
-## **File Structure**
-Here is an overview of the project's main files and folders:
-
-AskMeAnything/
-│
-├── .env.example                 # Example environment variable file
-├── Dockerfile                   # Docker configuration for the Flask app
-├── docker-compose.yml           # Orchestrates Docker containers
-├── app.py                       # Main Flask app file
-├── DialogueRecord.py            # SQLAlchemy model for storing questions and answers
-├── requirements.txt             # Python dependencies
-├── test_app.py                  # Unit tests for the app
-├── alembic.ini                  # Alembic configuration file
-├── migrations/                  # Alembic migration scripts
-└── README.md                    # This README file
-
 ## **Contributing**
 If you'd like to contribute to this project, please feel free to open a pull request or issue on the GitHub repository.
 
