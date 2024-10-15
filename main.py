@@ -2,7 +2,6 @@ import requests
 if __name__ == '__main__':
     url = "http://127.0.0.1:5001/ask"
     question = input("Please provide a question: ")
-
     try:
         response = requests.post(url, json={"question": question})
 
